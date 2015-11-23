@@ -8,4 +8,4 @@ sparql.setQuery("""
 sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
-print results["results"]["bindings"][0]
+print results["results"]["bindings"]
